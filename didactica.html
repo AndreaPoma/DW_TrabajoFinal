@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrea Poma</title>
+    <link rel="stylesheet" href="css/didactica.css">
+    <link rel="shortcut icon" href="img/iconLogo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="img/LogoWeb.png" alt="logo">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="procedimiento.html">Procedimiento</a></li>
+            <li><a href="institucion.html">Institución</a></li>
+            <li><a href="didactica.html">Didáctica</a></li>
+            <li><a href="programa.html">Programa Utilizado</a></li>
+        </ul>
+    </nav>
+
+    <main class="contenido">
+
+        <hr>
+        <h1>LOS CURSOS DE LA CARRERA DE DSI</h1>
+        <hr>
+
+        <section class="info">
+
+            <aside class="insignia">
+                <img src="img/informatica.jpg" alt="Misioneros Monfortianos"><br>
+                <hr><br>
+                <p>La carrera de Desarrollo de Sistemas de información tiene varios cursos y cada semestre enseña,
+                    diferentes temas.</p><br>
+                <hr><br><br>
+                <h2>TURNOS:</h2><br>
+                <form action="/action_page.php">
+                    <input type="checkbox" value="DIURNO">
+                    <label class="dato"><strong>DIURNO</strong></label>
+                    <br><br>
+                    <input type="checkbox" value="NOCTURNO">
+                    <label class="dato"><strong>NOCTURNO</strong></label>
+                </form>
+            </aside>
+
+            <section class="seccion">
+
+                <article>
+                    <section class="articulos">
+
+                        <div>
+                            <br><br>
+                            <h2>EL SEMESTRE III - 2023 </h2><br>
+                            <ul>
+                                <li>Programación Orientada a Objetos II</li>
+                                <li>Taller de Base de Datos II</li>
+                                <li>Administrador de Servidores</li>
+                                <li>Diseño Web</li>
+                                <li>Educación Ambiental</li>
+                                <li>Inglés</li>
+                            </ul>
+                        </div>
+
+                        <div class="dato">
+                            <img src="img/ADMISIÓN 2023.png" alt="precios">
+                        </div>
+
+                    </section>
+                    <hr>
+
+                    <div class="dato">
+                        <h2>HORARIO - <a href="doc/REPORTE DE HORARIO.xlsx" target="_blank">Descargar</a></h2><br>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Lunes</th>
+                                    <th>Martes</th>
+                                    <th>Miércoles</th>
+                                    <th>Jueves</th>
+                                    <th>Viernes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">Taller de base de datos II</td>
+                                    <td>Administración de servidores</td>
+                                    <td rowspan="2">Diseño web</td>
+                                    <td>Programación Orientada a Objetos II</td>
+                                    <td rowspan="2">Programación Orientada a Objetos II</td>
+                                </tr>
+                                <tr>
+                                    <td>Inglés</td>
+                                    <td>Educación Ambiental</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </article>
+            </section>
+
+        </section>
+
+        <hr>
+
+        <article>
+            <section class="dato">
+                <h2>ENCUESTA - ESCOJA EL CURSO DE SU ELECCIÓN Y DIGA QUE LE PARECE :D</h2><br>
+
+                <form action="/action_page.php">
+
+                    <label class="dato"><strong>Los cursos:</strong></label><br>
+
+                    <select name="didactica" id="didactica">
+                        <option value="Taller de Base de Datos II">Taller de Base de Datos II</option>
+                        <option value="Administración de Servidores">Administración de Servidores</option>
+                        <option value="Inglés">Inglés</option>
+                        <option value="Diseño Web">Diseño web</option>
+                        <option value="Programación Oirentada a Objetos II">Programación Oirentada a Objetos II
+                        </option>
+                        <option value="Educación Ambiental">Educación Ambiental</option>
+                    </select>
+
+                    <label class="dato">
+                        <strong>Apellidos y Nombres:</strong>
+                    </label>
+                    <input type="text">
+
+            </section>
+            <div class="dato">
+                <label class="dato">
+                    <strong>Sugerencias:</strong>
+                </label><br><br>
+                <textarea cols="30" rows="10">Escriba su opinión...</textarea>
+                <input type="button" value="Enviar">
+            </div>
+            </form>
+
+        </article>
+
+    </main>
+
+    <footer>
+
+        <p>Todos los derechos reservados a la estudiante Andrea Poma</p>
+        <h3>INFORMACIÓN DE CONTACTO</h3>
+
+        <div class="redes">
+            <a href="mailto:andrea.poma@iestpmonfortianos.edu.pe">
+                <img src="img/correo.png" alt="Email" width="35px"></a>
+            <p>Correo electrónico</p>
+
+            <a href="https://www.instagram.com">
+                <img src="img/instagram.png" alt="Instagram" width="35px"></a>
+            <p>Instagram</p>
+
+            <a href="https://api.whatsapp.com/send?phone=+51993251277&text=Hola, buena información.">
+                <img src="img/whatsapp.png" alt="WhatsApp" width="35px"></a>
+            <p>WhatsApp</p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

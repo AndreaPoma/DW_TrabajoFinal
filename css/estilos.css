@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*FUENTES*/
+@font-face{
+    font-family: honey_notes;
+    src: url(../font/Honey\ Notes\ DEMO.ttf) format('truetype');
+}
+
+/*ENCABEZADO*/
+header {
+    background-color: #141821;
+    width: 100%;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+nav ul {
+    background-color: #1B1F2A;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-flex;
+}
+nav ul li a {
+    font-family: honey_notes;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    transition-property: all;
+    cursor: pointer;
+}
+nav ul li a:hover {
+    opacity: 0.9;
+    background-color: white;
+    color: #1B1F2A;
+    transition-duration: 1600ms;
+}
+/*FIN*/
+
+/*IMAGENES*/
+header img{
+    width: 280px;
+    margin: auto 500px;
+}
+.arti img {
+    width: 250px;
+    height: 350px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+/*FIN*/
+
+.articulos {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.articulos p, .menu-secundario p{
+    font-size: 18px;
+    font-family: Verdana, tahoma;
+}
+
+.arti{
+    text-align: center;
+    padding-left: 70px;
+}
+
+.contenido {
+    display: flex;
+    margin: 60px;
+}
+
+.secciones {
+    width: 80%;
+    border-right: 3px solid #141821;
+}
+
+.menu-secundario {
+    width: 20%;
+    padding: 10px;
+    background-color: #335343;
+    color: white;
+}
+
+.menu-secundario a {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Verdana, tahoma;
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: 220px;
+    background-color: #141821;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p, footer h3{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI';
+    margin: auto 50px;
+}
+footer .redes{
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+footer div p{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+/*FIN*/
+
+h1, h2{
+    font-family: 'Segoe UI', Verdana;
+}

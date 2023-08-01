@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*FUENTES*/
+@font-face{
+    font-family: honey_notes;
+    src: url(../font/Honey\ Notes\ DEMO.ttf) format('truetype');
+}
+
+/*ENCABEZADO*/
+header {
+    background-color: #141821;
+    width: 100%;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+nav ul {
+    background-color: #1B1F2A;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-flex;
+}
+nav ul li a {
+    font-family: honey_notes;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    transition-property: all;
+    cursor: pointer;
+}
+nav ul li a:hover {
+    opacity: 0.9;
+    background-color: white;
+    color: #1B1F2A;
+    transition-duration: 1600ms;
+}
+/*FIN*/
+
+/*IMAGENES*/
+header img{
+    width: 280px;
+    margin: auto 500px;
+}
+.instituto img{
+    width: 300px;
+    height: 150px;
+}
+.dato img{
+    width: 400px;
+    border-radius: 5px;
+    border: 3px solid #0c332b;
+}
+.dato{
+    padding: 20px;
+}
+.insignia{
+    width: 20%;
+    padding: 20px;
+    margin: 50px 10px;
+}
+.insignia img{
+    width: 200px;
+    height: 200px;
+    border-radius: 150%;
+    padding: 10px;
+}
+/*FIN*/
+
+table{
+    background-color: #0c332b;
+    border-spacing: 2px;
+}
+th{
+    border: 2px solid #141821;
+    background-color: #335343;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+td{
+    border: 2px solid #141821;
+    background-color: #bfdad3;
+    color: #0c332b;
+    padding: 10px;
+    text-align: center;
+}
+.dato a{
+    text-decoration: none;
+    color: #0c332b;
+}
+.dato a:hover{
+    color: #bfdad3;
+    text-transform: uppercase;
+}
+
+select {
+    width: 40%;
+    margin: 10px;
+    font-size: 18px;
+    font-family: Verdana, tahoma;
+    padding: 15px 20px;
+    border-radius: 2px;
+    border: none;
+    background-color: #d6dad8;
+}
+input[type=text]{
+    width: 35%;
+    margin: 8px 0;
+    padding: 13px 20px;
+    box-sizing: border-box;
+    font-family: Verdana, tahoma;
+    font-size: 18px;
+}
+input[type=button]{
+    background-color: #0c332b;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    margin: auto 20px;
+    font-family: Verdana, tahoma;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 60%;
+    height: 160px;
+    padding: 12px 20px;
+    margin: auto 20px;
+    border: 2px solid #1B1F2A;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #eff1f0;
+    font-family: Verdana, tahoma;
+    font-size: 18px;
+    resize: none;
+}
+
+.articulos {
+    display: flex;
+    padding: 20px;
+    margin: auto 50px;
+}
+
+.articulos p, .articulos ul li, .insignia p, table, label{
+    font-size: 18px;
+    font-family: Verdana, tahoma;
+}
+
+.contenido {
+    margin: 60px;
+}
+.info{
+    display: flex;
+}
+.seccion{
+    width: 80%;
+    border-left: 1px solid #335343;
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: 220px;
+    background-color: #141821;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p, footer h3 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI';
+    margin: auto 50px;
+}
+footer .redes{
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+footer div p{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+/*FIN*/
+
+h1, h2{
+    font-family: 'Segoe UI', Verdana;
+}
